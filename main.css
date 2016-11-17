@@ -1,61 +1,97 @@
-body,html, section{
-    height:100%;
+body, html, section {
+  height: 100%;
+}
+
+* {
+  font-family: Yamantranav, sans-serif;
 }
 
 body {
   width: 200%;
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 
-section{
-    padding:20px;
-    overflow:hidden;
-    height:100%;
-    width:100%;
+section {
+  padding: 20px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
-section div{
-    font-size:120px;
+section div {
+  font-size: 120px;
 }
 
-section div p{
-font-size: 20px;
+section div p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 3em;
+  position: fixed;
+  z-index: 999999;
+  background: none;
+  text-align: center;
+  margin-left: 20%;
+  color: white;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 7em;
+  position: fixed;
+  z-index: 9999999;
+  margin-left: 10%;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+#in-fraganti {
+  margin-top: 40%;
+  background-color: orange;
+  margin-left: 20%;
 }
 
 body #section1 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/firstBG.jpg) no-repeat fixed;
-background-position: center center;
-    color:white;
+  background: url(pablo-escobar.png) no-repeat fixed;
+  background-position: center center;
+  color: white;
 }
+
 .page-wrapper body #section1 .section-text1 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
+  position: fixed;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #000000;
 }
+
 body #section2 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/secondBG.jpg) no-repeat fixed;
-background-position: center center;
-z-index: 3000;
+  background: url(sebas-marroquin.png) no-repeat fixed;
+  background-position: center center;
+  z-index: 3000;
 }
+
 .page-wrapper body #section2 .section-text2 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
+  position: fixed;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #000000;
 }
+
 body #section3 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
-background-position: center center;
+  background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
+  background-position: center center;
 }
 
 .page-wrapper body #section3 .section-text3 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
+  position: fixed;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #000000;
 }
