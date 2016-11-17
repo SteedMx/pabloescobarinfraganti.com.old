@@ -1,13 +1,18 @@
-{
+body,html, section{
     height:100%;
 }
 
-body,html, .site-body, section{
-    height:100%;
+body {
+  width: 200%;
+  display:flex;
+  flex-direction:row;
 }
+
 section{
     padding:20px;
     overflow:hidden;
+    height:100%;
+    width:100%;
 }
 
 section div{
@@ -18,40 +23,39 @@ section div p{
 font-size: 20px;
 }
 
-.site-body #section1 {
+body #section1 {
 background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/firstBG.jpg) no-repeat fixed;
 background-position: center center;
     color:white;
 }
-.page-wrapper .site-body #section1 .section-text1 {
+.page-wrapper body #section1 .section-text1 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
 padding-top: 100px;
 background: #000000;
 }
-.site-body #section2 {
+body #section2 {
 background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/secondBG.jpg) no-repeat fixed;
 background-position: center center;
 z-index: 3000;
 }
-.page-wrapper .site-body #section2 .section-text2 {
+.page-wrapper body #section2 .section-text2 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
 padding-top: 100px;
 background: #000000;
 }
-.site-body #section3 {
+body #section3 {
 background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
 background-position: center center;
 }
 
-.page-wrapper .site-body #section3 .section-text3 {
+.page-wrapper body #section3 .section-text3 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
 padding-top: 100px;
 background: #000000;
 }
-
