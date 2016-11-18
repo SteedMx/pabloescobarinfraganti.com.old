@@ -4,3 +4,8 @@ $(window).scroll(function() {
     console.log();
   });
 });
+
+$(document).ready(function() {
+  <!-- not working -->
+  window.scrollTo(600, 0);
+});
